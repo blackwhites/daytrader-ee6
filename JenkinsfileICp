@@ -3,8 +3,7 @@ pipeline {
     parameters {
         string(name: 'ICP_MASTER_CFC', defaultValue: 'mycluster.icp:8500')
         string(name: 'ICP_MASTER_8001', defaultValue: 'https://9.110.73.12:8001')
-        string(name: 'ICP_TOKEN', defaultValue: 'eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF0X2hhc2giOiI3Qm5QVXBvTlozc3JIOUR6aWRETEhRIiwiaXNzIjoiaHR0cHM6Ly9teWNsdXN0ZXIuaWNwOjk0NDMvb2lkYy9lbmRwb2ludC9PUCIsImF1ZCI6IjQ4MmY3MjgwMjhlOTc1YmFiYmE5MTY5Njg1ODMyODIyIiwiZXhwIjoxNTEzMDAxNDQwLCJpYXQiOjE1MTI5NTgyNDB9.dPyKmxI8dxTXOYdUT2_-NpGbSFVmZJbkIslLPT2rUTknRTU67m8viGbCgUcUPfrTR4jNJ_mu7b5Mxtls-K9lC-6w4PV8IqluJkP-o9NoXBw-iG8cVanhEvwWRz-DHAnWAJGc5jwDFbcRTlXxdeTd-CkZGtw_QErCvltFTtNWVorpxVg2vCKBoTl3JspDPkjb4bIEbRdgX6-Ok4k2Rj_goizTiOiWYWEsymhEckK4esXn3uK1DXHY4IK8h-NRND6T6Ov_qhsNFyLVsCyp1VV8C_7UyhpRWiSLmg1T0J1OKomw5x71n0qvAycyNpxOKjf0loFybhXUwJefKj6obcaDqQ
-')
+        string(name: 'ICP_TOKEN', defaultValue: 'eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF0X2hhc2giOiI3Qm5QVXBvTlozc3JIOUR6aWRETEhRIiwiaXNzIjoiaHR0cHM6Ly9teWNsdXN0ZXIuaWNwOjk0NDMvb2lkYy9lbmRwb2ludC9PUCIsImF1ZCI6IjQ4MmY3MjgwMjhlOTc1YmFiYmE5MTY5Njg1ODMyODIyIiwiZXhwIjoxNTEzMDAxNDQwLCJpYXQiOjE1MTI5NTgyNDB9.dPyKmxI8dxTXOYdUT2_-NpGbSFVmZJbkIslLPT2rUTknRTU67m8viGbCgUcUPfrTR4jNJ_mu7b5Mxtls-K9lC-6w4PV8IqluJkP-o9NoXBw-iG8cVanhEvwWRz-DHAnWAJGc5jwDFbcRTlXxdeTd-CkZGtw_QErCvltFTtNWVorpxVg2vCKBoTl3JspDPkjb4bIEbRdgX6-Ok4k2Rj_goizTiOiWYWEsymhEckK4esXn3uK1DXHY4IK8h-NRND6T6Ov_qhsNFyLVsCyp1VV8C_7UyhpRWiSLmg1T0J1OKomw5x71n0qvAycyNpxOKjf0loFybhXUwJefKj6obcaDqQ')
         string(name: 'DOCKER_IMAGE_TAG', defaultValue: 'daytrader-ee6')
     }
     stages {
